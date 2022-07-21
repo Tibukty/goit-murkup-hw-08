@@ -1,0 +1,51 @@
+/*modal button */
+
+.modal-close-btn {
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 30px;
+     height: 30px;
+     transform: translate(-8px, 8px);
+     background-color: var(--txt-white);
+     border-radius: 50%;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     transition: color var(--anmtn-slow);
+    &:hover,
+    &:focus {
+            color: var(--accent-txt-color);
+        }
+ }
+
+.modal-btn-icon {
+     fill: currentColor;
+ }
+
+.btn-chek-centr {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+
+.btn-chek {
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 1.88;
+     letter-spacing: 0.06em;
+     padding: 10px 55px;
+     color: var(--txt-white);
+     background-color: var(--accent-txt-color);
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     transition: background-color var(--anmtn-slow);
+    &:hover,
+    &:focus {
+            background-color: #188CE8;
+        }
+ }
+
+ 

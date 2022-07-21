@@ -1,0 +1,117 @@
+/* footer */
+
+/* footer-address */
+
+.footer--background {
+    background-color: var(--heder-footer);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__baseline {
+    align-items: baseline
+}
+
+.footer__adress-contact--size {
+    min-width: 231px;
+    margin-right: 70px;
+}
+
+.footer__logo--margin {
+    margin-bottom: 20px;
+}
+
+
+.footer--address-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer__address-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: var(--txt-white);
+
+
+}
+
+.footer__contact-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--txt-gray-glass);
+    transition: color, var(--anmtn-slow);
+    &--hf:hover,
+    &--hf:focus {
+        color: var(--accent-txt-color);
+    }
+}
+
+.footer-media--margin {
+    margin-right: 93px;
+}
+
+.footer-media__h3 {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+/* footer рассылка */
+
+.footer-subscribe__position {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+}
+
+.footer-subscribe__email--position {
+    width: 358px;
+    display: block;
+}
+
+.footer-subscribe__input {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    line-height: 1.25;
+    color: var(--txt-light-gray);
+    padding-left: 13px;
+    padding-right: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    outline: transparent;
+    transition: border-color var(--anmtn-slow);
+    &--f:focus,
+    &--f:not(:placeholder-shown) {
+        border-color: var(--accent-txt-color);
+    }
+}
+
+
+
+.footer-subscribe__input--f:focus+.footer-subscribe__text,
+.footer-subscribe__input--f:not(:placeholder-shown)+.footer-subscribe__text {
+    transform: translateY(8px) scale(0.6);
+    transform-origin: left;
+    color: var(--accent-txt-color);
+}
+
+.footer-subscribe__text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    transition: transform var(--anmtn-slow), color var(--anmtn-slow);
+
+}

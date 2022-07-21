@@ -1,0 +1,28 @@
+/* Clients Постоянные клиенты */
+
+.clients__list {
+    display: flex;
+    justify-content: center;
+    --items: 6;
+}
+
+.clients__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92px;
+    color: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: color var(--anmtn-slow), border var(--anmtn-slow);
+    &:hover,
+    &:focus {
+            color: #2196F3;
+            border: 1px solid #2196F3;
+    
+        }
+}
+
+.clients__icon {
+    fill: currentColor;
+}

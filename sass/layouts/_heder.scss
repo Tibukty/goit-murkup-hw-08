@@ -1,0 +1,99 @@
+/* heder */
+
+.heder-container {
+    align-items: center;
+}
+
+.heder-border-one {
+    border-bottom: 1px solid #ECECEC;
+    margin-bottom: 5px;
+}
+
+.heder-border-portfolio {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.heder-nav {
+    align-items: center;
+}
+
+.logo-heder {
+    margin-right: 90px;
+}
+
+.heder-list-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.heder-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--txt-deep-grey);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color, var(--anmtn-slow)
+}
+
+.current {
+    position: relative;
+    &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background-color: var(--accent-txt-color);
+            border-radius: 2px;
+            bottom: -2px;
+        }
+}
+
+.heder-padding {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+
+
+.heder-group {
+    margin-left: auto;
+    &-item:not(:last-child) {
+            margin-right: 50px;
+        }
+}
+
+
+
+.heder-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--txt-gray);
+    transition: color, var(--anmtn-slow)
+}
+
+.heder-contact:hover,
+.heder-contact:focus,
+.heder-link:hover,
+.heder-link:focus,
+.mail-svg:hover,
+.phone-svg:hover,
+.mail-svg:focus,
+.phone-svg:focus,
+.current {
+    color: var(--accent-txt-color);
+}
+
+
+.mail-svg,
+.phone-svg {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    fill: currentColor;
+
+}

@@ -1,0 +1,59 @@
+/* social media team */
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 30px;
+    &--icon {
+            fill: currentColor;
+        }
+}
+.social-media__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-media__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    border-radius: 50%;
+    color: #AFB1B8;
+    transition: color var(--anmtn-slow), background-color var(--anmtn-slow);
+    &--hf:hover,
+    &--hf:focus {
+        color: var(--txt-white);
+        background-color: #2196F3;
+    }
+}
+
+/* footer social media */
+
+.footer-media__list {
+    display: flex;
+}
+
+.footer-media__item--margin:not(:last-child) {
+    margin-right: 10px;
+}
+.footer-media__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: var(--txt-white);
+    transition: background-color var(--anmtn-slow);
+    &--hf:hover,
+    &--hf:focus {
+            background-color: #2196F3;
+        }
+}
+.footer-media--icon {
+    fill: currentColor;
+}

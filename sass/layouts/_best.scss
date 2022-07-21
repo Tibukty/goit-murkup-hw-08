@@ -1,0 +1,39 @@
+/* section best Особенности и преимущества */
+
+.text-one-h2 {
+    
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--txt-deep-grey);
+    margin-bottom: 50px;
+}
+
+.best-icon-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+
+}
+
+.text-one-h3-best {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--txt-deep-grey);
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+
+.text-one-p-best {
+    font-size: 14px;
+    line-height: 1.71;
+
+}
+
+.best-list {
+   --items: 4;
+}

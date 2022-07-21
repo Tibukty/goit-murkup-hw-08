@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+
+		<!--fonts-->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!--normolaize styles-->
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+
+		<!--castom styles-->
+
+		<link rel="stylesheet" href="./css/main.min.css" />
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<!-- heder -->
+
+		<header>
+			<section class="container section-flex heder-container heder-border-portfolio">
+				<nav class="heder-nav section-flex">
+					<a class="logo-web logo-heder link" href="./index.html">Web<span class="logo-studio">Studio</span></a>
+					<ul class="list section-flex heder-padding">
+						<li class="heder-list-item">
+							<a class="heder-link link" href="./index.html">Студия</a>
+						</li>
+						<li class="heder-list-item">
+							<a class="heder-link link current" href="./portfolio.html">Портфолио</a>
+						</li>
+						<li class="heder-list-item">
+							<a class="heder-link link" href="./index.html">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+
+				<ul class="section-flex list heder-group heder-padding">
+					<li class="heder-group-item">
+						<a class="heder-contact link" href="mailito:info@devstudio.com"
+							><svg class="mail-svg" width="16" height="12">
+								<use href="./images/icons.svg#icon-mail"></use></svg
+							>info@devstudio.com</a
+						>
+					</li>
+					<li class="heder-group-item">
+						<a class="heder-contact link" href="tel:+380961111111"
+							><svg class="phone-svg" width="10" height="16">
+								<use href="./images/icons.svg#icon-phone"></use></svg
+							>+38 096 111 11 11</a
+						>
+					</li>
+				</ul>
+			</section>
+		</header>
+
+		<!-- main -->
+
+		<main>
+			<!-- portfolio -->
+
+			<section class="section">
+				<div class="container">
+					<h1 class="visually-hidden">Портфолио</h1>
+
+					<ul class="list section-flex btn-portfolio-container">
+						<li class="btn-portfolio-right">
+							<button class="btn btn-portfolio btn-portfolio-colored" type="button">Все</button>
+						</li>
+						<li class="btn-portfolio-right">
+							<button class="btn btn-portfolio" type="button">Веб-сайты</button>
+						</li>
+						<li class="btn-portfolio-right">
+							<button class="btn btn-portfolio" type="button">Приложения</button>
+						</li>
+						<li class="btn-portfolio-right">
+							<button class="btn btn-portfolio" type="button">Дизайн</button>
+						</li>
+						<li class="btn-portfolio-right">
+							<button class="btn btn-portfolio" type="button">Маркетинг</button>
+						</li>
+					</ul>
+
+					<ul class="list card-set">
+						<li class="card-set__item">
+							<a class="link card-border" href="">
+								<div class="card-set-blur">
+									<img
+										class="portfolio-pic img"
+										src="./images/hw-2-01.jpg"
+										alt="Работающий ноутбук "
+										width="370"
+										height="294"
+									/>
+									<div class="overlay">
+										<p class="overlay-dcrptn">
+											Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это
+											позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+										</p>
+									</div>
+								</div>
+								<div class="portfolio-border">
+									<h2 class="portfolio-h2-style">Технокряк</h2>
+									<p class="pottfolio-p-style">Веб-сайт</p>
+								</div>
+							</a>
+						</li>
+
+						<li class="card-set__item">
+							<a class="link card-border" href="">
+								<img
+									class="portfolio-pic img"
+									src="./images/hw-2-02.jpg"
+									alt="Два баскетболиста в борьбе за мячь Работающий ноутбук "
+									width="370"
+									height="294"
+								/>
+
+								<div class="portfolio-border">
+									<h2 class="portfolio-h2-style">Постер New Orlean vs Golden Star</h2>
+									<p class="pottfolio-p-style">Дизайн</p>
+								</div>
+							</a>
+						</li>
+
+						<li class="card-set__item">
+							<a class="link card-border" href="">
+								<img
+									class="portfolio-pic img"
+									src="./images/hw-2-03.jpg"
+									alt="Логотип ресторана"
+									width="370"
+									height="294"
+								/>
+								<div class="portfolio-border">
+									<h2 class="portfolio-h2-style">Ресторан Seafood</h2>
+									<p class="pottfolio-p-style">Приложение</p>
+									<span class="visually-hidden">Приложения</span>
+								</div>
+							</a>
+						</li>
+
+						<li class="card-set__item">
+							<a class="link card-border" href="">
+								<img
+									class="portfolio-pic img"
+									src="./images/hw-2-04.jpg"
+									alt="Изображение наушников"
+									width="370"
+									height="294"
+								/>
+								<div class="portfolio-border">
+									<h2 class="portfolio-h2-style">Проект Prime</h2>
+									<p class="pottfolio-p-style">Маркетинг</p>
+									<span class="visually-hidden">Маркетинг</span>
+								</div>
+							</a>
+						</li>
+
+						<li class="card-set__item">
+							<a class="link card-border" href="">
+								<img
+									class="portfolio-pic img"
+									src="./images/hw-2-05.jpg"
+									alt="Изображение двух коробок"
+									width="370"
+									height="294"
+								/>
+								<div class="portfolio-border">
+									<h2 class="portfolio-h2-style">Проект Boxes</h2>
+									<p class="pottfolio-p-style">Приложение</p>
+									<span class="visually-hidden">Приложения</span>
+								</div>
+							</a>
+						</li>
+
+						<li class="card-set__item">
+							<a class="link card-border" href="">
+								<img
+									class="portfolio-pic img"
+									src="./images/hw-2-06.jpg"
+									alt="Монитор Aplle"
+									width="370"
+									height="294"
+								/>
+								<div class="portfolio-border">
+									<h2 lang="en" class="portfolio-h2-style">Inspiration has no Borders</h2>
+									<p class="pottfolio-p-style">Веб-сайт</p>
+									<span class="visually-hidden">Веб-сайты</span>
+								</div>
+							</a>
+						</li>
+
+						<li class="card-set__item">
+							<a class="link card-border" href="">
+								<img
+									class="portfolio-pic img"
+									src="./images/hw-2-07.jpg"
+									alt="Разворот журнала"
+									width="370"
+									height="294"
+								/>
+								<div class="portfolio-border">
+									<h2 class="portfolio-h2-style">Издание Limited Edition</h2>
+									<p class="pottfolio-p-style">Дизайн</p>
+									<span class="visually-hidden">Дизайн</span>
+								</div>
+							</a>
+						</li>
+
+						<li class="card-set__item">
+							<a class="link card-border" href="">
+								<img
+									class="portfolio-pic img"
+									src="./images/hw-2-08.jpg"
+									alt="Изображение этикетки LAB"
+									width="370"
+									height="294"
+								/>
+								<div class="portfolio-border">
+									<h2 class="portfolio-h2-style">Проект LAB</h2>
+									<p class="pottfolio-p-style">Маркетинг</p>
+									<span class="visually-hidden">Маркетинг</span>
+								</div>
+							</a>
+						</li>
+
+						<li class="card-set__item">
+							<a class="link card-border" href="">
+								<img
+									class="portfolio-pic img"
+									src="./images/hw-2-09.jpg"
+									alt="Работа в приложении Growing Business на ноутбуке"
+									width="370"
+									height="294"
+								/>
+								<div class="portfolio-border">
+									<h2 lang="en" class="portfolio-h2-style">Growing Business</h2>
+									<p class="pottfolio-p-style">Приложение</p>
+									<span class="visually-hidden">Приложения</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<!-- footer -->
+
+		<footer class="foter footer--background">
+			<div class="container section-flex footer__baseline">
+				<div class="footer__adress-contact--size">
+					<div class="footer__logo--margin">
+						<a class="logo-web link" href="./index.html">Web<span class="footer__logo-studio">Studio</span></a>
+					</div>
+
+					<ul class="list">
+						<li class="footer--address-item">
+							<address>
+								<a
+									class="footer__address-link link"
+									href="https://goo.gl/maps/yNYyYPv2zE2rzLxP9"
+									target="_blank"
+									rel="noopener noreferrer"
+									>г. Киев, пр-т Леси Украинки, 26</a
+								>
+							</address>
+						</li>
+						<li class="footer--address-item">
+							<a class="footer__contact-link footer__contact-link--hf link" href="mailito:info@example.com"
+								>info@example.com</a
+							>
+						</li>
+						<li class="footer--address-item">
+							<a class="footer__contact-link footer__contact-link--hf link" href="tel:+380991111111"
+								>+38 099 111 11 11</a
+							>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-media footer-media--margin">
+					<h3 class="footer-media__h3">присоединяйтесь</h3>
+
+					<ul class="footer-media__list list">
+						<li class="footer-media__item footer-media__item--margin">
+							<a
+								class="link footer-media__link footer-media__link--hf"
+								href=""
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="instagram"
+							>
+								<svg class="footer-media--icon" width="20" height="20">
+									<use href="./images/icons.svg#icon-instagram-01"></use></svg
+							></a>
+						</li>
+						<li class="footer-media__item footer-media__item--margin">
+							<a
+								class="link footer-media__link footer-media__link--hf"
+								href=""
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="twitter"
+							>
+								<svg class="footer-media--icon" width="20" height="20">
+									<use href="./images/icons.svg#icon-twitter-02"></use></svg
+							></a>
+						</li>
+						<li class="footer-media__item footer-media__item--margin">
+							<a
+								class="link footer-media__link footer-media__link--hf"
+								href=""
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="facebook"
+							>
+								<svg class="footer-media--icon" width="20" height="20">
+									<use href="./images/icons.svg#icon-facebook-03"></use></svg
+							></a>
+						</li>
+						<li class="footer-media__item footer-media__item--margin">
+							<a
+								class="link footer-media__link footer-media__link--hf"
+								href=""
+								target="_blank"
+								rel="noopener noreferrer"
+								aria-label="linkedin"
+							>
+								<svg class="footer-media--icon" width="20" height="20">
+									<use href="./images/icons.svg#icon-linkedin-04"></use></svg
+							></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-subscribe">
+					<h3 class="footer-media__h3">Подпишитесь на рассылку</h3>
+					<form autocomplete="on">
+						<div class="footer-subscribe__position">
+							<label class="footer-subscribe__email footer-subscribe__email--position">
+								<input
+									class="footer-subscribe__input footer-subscribe__input--f"
+									type="email"
+									name="user-email"
+									placeholder=" "
+									required
+								/>
+								<span class="footer-subscribe__text">E-mail</span></label
+							>
+							<button type="submit" class="btn footer-subscribe__btn footer-subscribe__btn--hf">
+								Подписаться
+								<svg class="footer-subscribe__svg" width="24" height="24">
+									<use href="./images/icons.svg#icon-samolet-06"></use>
+								</svg>
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

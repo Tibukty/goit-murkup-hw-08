@@ -1,0 +1,18 @@
+/* section hero */
+
+.hero-background {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/hw-04-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.hero-center {
+    text-align: center;
+}
+

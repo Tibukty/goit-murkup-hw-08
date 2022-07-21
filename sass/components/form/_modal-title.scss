@@ -1,0 +1,23 @@
+/* modal title */
+
+.win-strong {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txt-deep-grey);
+    margin-bottom: 12px;
+}
+
+.modal-form-txt {
+    display: block;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--txt-gray);
+    margin-bottom: 4px;
+
+}
