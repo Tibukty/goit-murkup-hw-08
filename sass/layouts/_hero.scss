@@ -1,18 +1,29 @@
 /* section hero */
 
+.section-hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+}
+
 .hero-background {
     max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/hw-04-background.jpg);
+    url(../images/hw-04-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 200px 0;
-}
+}   
+
 
 .hero-center {
-    text-align: center;
+   text-align: center;
+    
 }
 

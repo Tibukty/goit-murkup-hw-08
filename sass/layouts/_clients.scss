@@ -1,11 +1,14 @@
 /* Clients Постоянные клиенты */
 
+
 .clients__list {
     display: flex;
     justify-content: center;
-    --items: 6;
+    --items: 2;
+    @media screen and (min-width: 1200px) {
+            --items: 6;
 }
-
+}
 .clients__link {
     display: flex;
     align-items: center;

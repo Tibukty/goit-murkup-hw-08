@@ -1,5 +1,15 @@
 /* Work Чем мы занимаемся */
 
+.section-top {
+        display: none;
+        
+
+        @media screen and (min-width: 1200px) {
+        display: flex;
+        padding-top: 0px;
+        }
+}
+
 .wrk-pic-bckgrnd {
     position: relative;
 

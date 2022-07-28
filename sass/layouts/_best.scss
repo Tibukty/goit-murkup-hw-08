@@ -1,13 +1,31 @@
 /* section best Особенности и преимущества */
 
-.text-one-h2 {
-    
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    color: var(--txt-deep-grey);
-    margin-bottom: 50px;
+.best {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
 }
+
+.best-list {
+    
+            --items: 1;
+       
+
+    @media screen and (min-width: 768px) {
+            --items: 2;
+        }
+
+    @media screen and (min-width: 1200px){
+    --items: 4;
+    }
+    
+}
+
+
 
 .best-icon-border {
     display: flex;
@@ -34,6 +52,3 @@
 
 }
 
-.best-list {
-   --items: 4;
-}
