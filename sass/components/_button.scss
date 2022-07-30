@@ -78,15 +78,38 @@
     &:focus {
             background-color: #188CE8;
         }
+                
+       
+        margin-top: 20px;
+
+        @media screen and (min-width: 1200px) {
+        margin-top: 0px;
+        }
 }
 
 .footer-subscribe__svg {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 10px;
     fill: currentColor;
-}
+    margin-left: 10px;
+    top: 80%;
+    transform: translateY(-50%);
+    
+    
 
+    
+            
+    
+            @media screen and (min-width: 768px) {}
+    
+            ;
+    
+            @media screen and (min-width: 1200px) {
+                top: 50%;
+                transform: translateY(-50%);
+                
+    
+            }
+
+        }
 
  

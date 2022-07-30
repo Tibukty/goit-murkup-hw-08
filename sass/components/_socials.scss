@@ -33,7 +33,19 @@
 /* footer social media */
 
 .footer-media__list {
-    display: flex;
+
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        
+            @media screen and (min-width: 768px) {}
+        
+            ;
+        
+            @media screen and (min-width: 1200px) {
+                
+            }
+    
 }
 
 .footer-media__item--margin:not(:last-child) {
