@@ -33,7 +33,7 @@
 
 		<!-- custom styles start -->
 		<link rel="stylesheet" href="./css/main.min.css" />
-		<link rel="stylesheet" href="./css/styles.css" />
+		<!-- link rel="stylesheet" href="./css/styles.css" /> -->
 		<!-- custom styles end -->
 	</head>
 
@@ -227,25 +227,78 @@
 					<ul class="list card-set">
 						<li class="card-set__item">
 							<div class="wrk-pic-bckgrnd">
-								<img class="img" src="./images/hw1-1.jpg" alt="работа закомпьютером" width="370" height="294" />
+								<picture>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/work/work-01-l.webp 1x, ./images/work/work-01-l@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/work/work-01-l.jpg 1x, ./images/work/work-01-l@2x.jpg 2x"
+										type="image/jpg"
+									/>
+
+									<img
+										class="img"
+										src="./images/work/work-01-l.jpg"
+										alt="работа закомпьютером"
+										width="370"
+										height="294"
+									/>
+								</picture>
 								<p class="wrk-txt-bckgrnd">Десктопные приложения</p>
 							</div>
 						</li>
 						<li class="card-set__item">
 							<div class="wrk-pic-bckgrnd">
-								<img class="img" src="./images/hw1-2.jpg" alt="работа на ноутбуке" width="370" height="294" />
+								<picture>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/work/work-02-l.webp 1x, ./images/work/work-02-l@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/work/work-02-l.jpg 1x, ./images/work/work-02-l@2x.jpg 2x"
+										type="image/jpg"
+									/>
+
+									<img
+										class="img"
+										src="./images/work/work-02-l.jpg"
+										alt="работа на ноутбуке"
+										width="370"
+										height="294"
+									/>
+								</picture>
+
 								<p class="wrk-txt-bckgrnd">Мобильные приложения</p>
 							</div>
 						</li>
 						<li class="card-set__item">
 							<div class="wrk-pic-bckgrnd">
-								<img
-									class="img"
-									src="./images/hw1-3.jpg"
-									alt="работа в приложении на планшете"
-									width="370"
-									height="294"
-								/>
+								<picture>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/work/work-03-l.webp 1x, ./images/work/work-03-l@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/work/work-03-l.jpg 1x, ./images/work/work-03-l@2x.jpg 2x"
+										type="image/jpg"
+									/>
+
+									<img
+										class="img"
+										src="./images/work/work-03-l.jpg"
+										alt="работа в приложении на планшете"
+										width="370"
+										height="294"
+									/>
+								</picture>
+
 								<p class="wrk-txt-bckgrnd">Дизайнерские решения</p>
 							</div>
 						</li>
@@ -262,7 +315,46 @@
 					<ul class="list card-set team__list">
 						<li class="card-set__item">
 							<div class="team--border">
-								<img class="img" src="./images/hw1-4.jpg" alt="фото Игорь Демьяненко" width="270" height="260" />
+								<picture>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/team/team-01-l.webp 1x, ./images/team/team-01-l@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/team/team-01-l.jpg 1x, ./images/team/team-01-l@2x.jpg 2x"
+										type="image/jpg"
+									/>
+									<source
+										media="(min-width: 768px)"
+										srcset="./images/team/team-01-m.webp 1x, ./images/team/team-01-m@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(min-width: 768px)"
+										srcset="./images/team/team-01-m.jpg 1x, ./images/team/team-01-m@2x.jpg 2x"
+										type="image/jpg"
+									/>
+									<source
+										media="(max-width: 767px)"
+										srcset="./images/team/team-01-s.webp 1x, ./images/team/team-01-s@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(max-width: 767px)"
+										srcset="./images/team/team-01-s.jpg 1x, ./images/team/team-01-s@2x.jpg 2x"
+										type="image/jpg"
+									/>
+									<img
+										class="img"
+										src="./images/team/team-01-s.jpg"
+										alt="фото Игорь Демьяненко"
+										width="450"
+										height="460"
+									/>
+								</picture>
+
 								<h3 class="team__text-h3">Игорь Демьяненко</h3>
 								<p lang="en" class="team__text-p">Product Designer</p>
 								<ul class="social-media list">
@@ -320,7 +412,40 @@
 
 						<li class="card-set__item">
 							<div class="team--border">
-								<img class="img" src="./images/hw1-5.jpg" alt="фото Ольга Репина" width="270" height="260" />
+								<picture>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/team/team-02-l.webp 1x, ./images/team/team-02-l@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/team/team-02-l.jpg 1x, ./images/team/team-02-l@2x.jpg 2x"
+										type="image/jpg"
+									/>
+									<source
+										media="(min-width: 768px)"
+										srcset="./images/team/team-02-m.webp 1x, ./images/team/team-02-m@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(min-width: 768px)"
+										srcset="./images/team/team-02-m.jpg 1x, ./images/team/team-02-m@2x.jpg 2x"
+										type="image/jpg"
+									/>
+									<source
+										media="(max-width: 767px)"
+										srcset="./images/team/team-02-s.webp 1x, ./images/team/team-02-s@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(max-width: 767px)"
+										srcset="./images/team/team-02-s.jpg 1x, ./images/team/team-02-s@2x.jpg 2x"
+										type="image/jpg"
+									/>
+									<img class="img" src="./images/team/team-02-s.jpg" alt="фото Ольга Репина" width="450" height="460" />
+								</picture>
+
 								<h3 class="team__text-h3">Ольга Репина</h3>
 								<p lang="en" class="team__text-p">Frontend Developer</p>
 								<ul class="social-media list">
@@ -378,7 +503,45 @@
 
 						<li class="card-set__item">
 							<div class="team--border">
-								<img class="img" src="./images/hw1-6.jpg" alt="фото Николай Тарасов" width="270" height="260" />
+								<picture>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/team/team-03-l.webp 1x, ./images/team/team-03-l@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/team/team-03-l.jpg 1x, ./images/team/team-03-l@2x.jpg 2x"
+										type="image/jpg"
+									/>
+									<source
+										media="(min-width: 768px)"
+										srcset="./images/team/team-03-m.webp 1x, ./images/team/team-03-m@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(min-width: 768px)"
+										srcset="./images/team/team-03-m.jpg 1x, ./images/team/team-03-m@2x.jpg 2x"
+										type="image/jpg"
+									/>
+									<source
+										media="(max-width: 767px)"
+										srcset="./images/team/team-03-s.webp 1x, ./images/team/team-03-s@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(max-width: 767px)"
+										srcset="./images/team/team-03-s.jpg 1x, ./images/team/team-03-s@2x.jpg 2x"
+										type="image/jpg"
+									/>
+									<img
+										class="img"
+										src="./images/team/team-03-s.jpg"
+										alt="фото Николай Тарасов"
+										width="450"
+										height="460"
+									/>
+								</picture>
 								<h3 class="team__text-h3">Николай Тарасов</h3>
 								<p lang="en" class="team__text-p">Marketing</p>
 								<ul class="social-media list">
@@ -436,7 +599,45 @@
 
 						<li class="card-set__item">
 							<div class="team--border">
-								<img class="img" src="./images/hw1-7.jpg" alt="фото Михаил Ермаков" width="270" height="260" />
+								<picture>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/team/team-04-l.webp 1x, ./images/team/team-04-l@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(min-width: 1200px)"
+										srcset="./images/team/team-04-l.jpg 1x, ./images/team/team-04-l@2x.jpg 2x"
+										type="image/jpg"
+									/>
+									<source
+										media="(min-width: 768px)"
+										srcset="./images/team/team-04-m.webp 1x, ./images/team/team-04-m@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(min-width: 768px)"
+										srcset="./images/team/team-04-m.jpg 1x, ./images/team/team-04-m@2x.jpg 2x"
+										type="image/jpg"
+									/>
+									<source
+										media="(max-width: 767px)"
+										srcset="./images/team/team-04-s.webp 1x, ./images/team/team-04-s@2x.webp 2x"
+										type="image/webp"
+									/>
+									<source
+										media="(max-width: 767px)"
+										srcset="./images/team/team-04-s.jpg 1x, ./images/team/team-04-s@2x.jpg 2x"
+										type="image/jpg"
+									/>
+									<img
+										class="img"
+										src="./images/team/team-04-s.jpg"
+										alt="фото Николай Тарасов"
+										width="450"
+										height="460"
+									/>
+								</picture>
 								<h3 class="team__text-h3">Михаил Ермаков</h3>
 								<p lang="en" class="team__text-p">UI Designer</p>
 								<ul class="social-media list">

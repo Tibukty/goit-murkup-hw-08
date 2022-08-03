@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 70%;
+    height: 80%;
     z-index: 1000;
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
@@ -20,18 +20,36 @@
 }
 
  .modal {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 450px;
+        height: 609px;
+        padding: 40px;
+        background-color: var(--txt-white);
+        border-radius: 4px;
+        box-shadow:
+            0px 1px 3px rgba(0, 0, 0, 0.12),
+            0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+       
+    
+        @media screen and (min-width: 768px) {
+           
+        }
+    
+        ;
+    
+        @media screen and (min-width: 1200px) {
+            
+        
+     
+     
      width: 528px;
      height: 581px;
-     padding: 40px;
-     background-color: var(--txt-white);
-     border-radius: 4px;
-     box-shadow:
-         0px 1px 3px rgba(0, 0, 0, 0.12),
-         0px 1px 1px rgba(0, 0, 0, 0.14),
-         0px 2px 1px rgba(0, 0, 0, 0.2);
+     
+     
  }
+}
 

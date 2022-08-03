@@ -2,8 +2,13 @@
 
 .modal-form-icon {
     position: absolute;
-    bottom: 14px;
+    bottom: 22px;
     left: 15px;
     fill: var(--txt-deep-grey);
     transition: fill var(--anmtn-slow);
+
+    @media screen and (min-width: 1200px) {
+        bottom: 14px;
+        left: 15px;
+    }
 }
