@@ -23,10 +23,12 @@
 	transition: color var(--anmtn-slow);
 	z-index: 100;
 	&:hover,
-	&:focus {
+	&:focus
+	&:active {
 		color: var(--accent-txt-color);
+		
 	}
-
+    
 	@media screen and (min-width: 768px) {
 		display: none;
 	}
@@ -96,9 +98,8 @@
 .btn-portfolio-container {
 	@media screen and (min-width: 480px) {
 		display: flex;
-		justify-content: flex-start;
-
-		align-items: center;
+		justify-content: start;
+        align-items: center;
 		flex-wrap: wrap;
 		margin-bottom: 40px;
 	}
@@ -114,14 +115,17 @@
 }
 
 .btn-portfolio-right {
-	@media screen and (min-width: 480px) {
-	}
 
-	@media screen and (min-width: 768px) {
-	}
+	margin-bottom: 15px;
+	&:not(:last-child) {
+	   margin-right: 8px;
 }
-.btn-portfolio-right:not(:last-child) {
-	margin-right: 8px;
+ @media screen and (min-width: 768px) {
+ 	
+	margin-bottom: 0;
+ }
+
+ ;
 }
 
 .btn-portfolio-colored {

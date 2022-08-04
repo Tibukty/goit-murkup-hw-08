@@ -15,23 +15,107 @@
 			rel="stylesheet"
 		/>
 
-		<!--normolaize styles-->
-
+		<!-- Normalize styles start -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+		<!-- Normalize styles end -->
 
-		<!--castom styles-->
+		<!-- Animate.css start -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<!-- Animate.css end -->
 
+		<!-- Choices base CSS (optional)start -->
+		<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/base.min.css" /> -->
+		<!-- Choices base CSS (optional)end -->
+
+		<!-- Choices CSS start -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+		<!-- Choices CSS end -->
+
+		<!-- custom styles start -->
 		<link rel="stylesheet" href="./css/main.min.css" />
-		<link rel="stylesheet" href="./css/styles.css" />
+		<!-- link rel="stylesheet" href="./css/styles.css" /> -->
+		<!-- custom styles end -->
 	</head>
-	<body>
+
+	<body data-body>
 		<!-- heder -->
 
 		<header>
-			<section class="container section-flex heder-container heder-border-portfolio">
-				<nav class="heder-nav section-flex">
+			<section class="container heder-container heder-border-one">
+				<nav class="heder-nav">
 					<a class="logo-web logo-heder link" href="./index.html">Web<span class="logo-studio">Studio</span></a>
-					<ul class="list section-flex heder-padding">
+					<button class="mobil-menu-btn" type="button" data-menu-button>
+						<svg class="mobil-menu-icon" width="24" height="16">
+							<use class="mobil-menu-open" href="./images/icons.svg#icon-menu_08"></use>
+							<use class="mobil-menu-close" href="/images/icons.svg#icon-close"></use>
+						</svg>
+					</button>
+
+					<!--Mobil Menu-->
+
+					<div class="mobil-menu" data-menu>
+						<ul class="list mobil-menu-nav">
+							<li class="mobil-menu-nav-item"><a class="link mobil-menu-nav-link" href="./index.html">Студия</a></li>
+							<li class="mobil-menu-nav-item"
+								><a class="link mobil-menu-nav-link current-nav" href="./portfolio.html">Портфолио</a></li
+							>
+							<li class="mobil-menu-nav-item"><a class="link mobil-menu-nav-link" href="">Контакты</a></li>
+						</ul>
+
+						<ul class="mobil-menu-contact list">
+							<li class="mobil-menu-contact-item"
+								><a class="link mobil-menu-contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li
+							>
+							<li class="mobil-menu-contact-item"
+								><a class="link mobil-menu-contact-link" href="mailito:info@devstudio.com">info@devstudio.com</a></li
+							>
+						</ul>
+
+						<ul class="mobil-menu-social list">
+							<li class="mobil-menu-social-item"
+								><a
+									class="mobil-menu-social-link link"
+									href=""
+									target="_blank"
+									rel="noopener noreferrer"
+									aria-label="Instagram"
+									>Instagram</a
+								></li
+							>
+							<li class="mobil-menu-social-item"
+								><a
+									class="mobil-menu-social-link link"
+									href=""
+									target="_blank"
+									rel="noopener noreferrer"
+									aria-label="Twitter"
+									>Twitter</a
+								></li
+							>
+							<li class="mobil-menu-social-item"
+								><a
+									class="mobil-menu-social-link link"
+									href=""
+									target="_blank"
+									rel="noopener noreferrer"
+									aria-label="Facebook"
+									>Facebook</a
+								></li
+							>
+							<li class="mobil-menu-social-item"
+								><a
+									class="mobil-menu-social-link link"
+									href=""
+									target="_blank"
+									rel="noopener noreferrer"
+									aria-label="linkedin"
+									>LinkedIn</a
+								></li
+							>
+						</ul>
+					</div>
+
+					<ul class="heder-nav-menu list section-flex heder-padding">
 						<li class="heder-list-item">
 							<a class="heder-link link" href="./index.html">Студия</a>
 						</li>
@@ -44,7 +128,7 @@
 					</ul>
 				</nav>
 
-				<ul class="section-flex list heder-group heder-padding">
+				<ul class="list heder-group heder-padding">
 					<li class="heder-group-item">
 						<a class="heder-contact link" href="mailito:info@devstudio.com"
 							><svg class="mail-svg" width="16" height="12">
@@ -668,5 +752,7 @@
 				</div>
 			</div>
 		</footer>
+		<script src="./js/modal.js"></script>
+		<script src="./js/menu.js"></script>
 	</body>
 </html>

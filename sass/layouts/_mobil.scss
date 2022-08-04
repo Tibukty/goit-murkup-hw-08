@@ -45,9 +45,15 @@
 
  .mobil-menu-nav-link {
  color: var(--txt-deep-grey);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-txt-color)
+    }
  }
 .current-nav {
  color: var(--accent-txt-color)
+
 }
 
 .mobil-menu-contact {
