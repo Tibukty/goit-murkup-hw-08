@@ -28,6 +28,9 @@
     &.is-open {
         transform: translateX(0);
     }
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
 }
 
 .mobil-menu-nav {
@@ -82,6 +85,8 @@
 }
 
 .mobil-menu-social {
+
+
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -91,8 +96,13 @@
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: var(--accent-txt-color);
+   
+    }
 
+.mobil-menu-social-item {
+   margin-bottom: 10px;
 }
+
 .mobil-menu-social-link {
     color: var(--accent-txt-color);
 }
