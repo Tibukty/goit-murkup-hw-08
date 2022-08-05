@@ -1663,21 +1663,20 @@ body.no-scroll {
   margin-bottom: 32px;
 }
 
-.mobil-menu-contact-link {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  color: var(--txt-gray);
-  -webkit-transition: color var(--anmtn-slow);
-  transition: color var(--anmtn-slow);
-}
-.mobil-menu-contact-link:hover, .mobil-menu-contact-link:focus {
+.mobil-menu-contact-link-tel {
   font-weight: 500;
   font-size: 34px;
   line-height: 1.18;
   letter-spacing: 0.02em;
   color: var(--accent-txt-color);
+}
+
+.mobil-menu-contact-link-mail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--txt-gray);
 }
 
 .mobil-menu-social {

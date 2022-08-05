@@ -67,23 +67,22 @@
         margin-bottom: 32px;
  }
 
-.mobil-menu-contact-link {
+ .mobil-menu-contact-link-tel {
+     font-weight: 500;
+     font-size: 34px;
+     line-height: 1.18;
+     letter-spacing: 0.02em;
+     color: var(--accent-txt-color)
+ }
+
+.mobil-menu-contact-link-mail {
     font-weight: 500;
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-    color: var(--txt-gray);
-    transition: color var(--anmtn-slow);
-    &:hover,
-    &:focus {
-        font-weight: 500;
-        font-size: 34px;
-        line-height: 1.18;
-        letter-spacing: 0.02em;
-        color: var(--accent-txt-color)
-    }
+        color: var(--txt-gray)
 }
-
+    
 .mobil-menu-social {
 
 

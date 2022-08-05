@@ -199,6 +199,7 @@
 
 .footer-subscribe__input--f:focus+.footer-subscribe__text,
 .footer-subscribe__input--f:not(:placeholder-shown)+.footer-subscribe__text {
+   
     transform: translateY(7px) scale(0.6);
     transform-origin: left;
     color: var(--accent-txt-color);
