@@ -97,11 +97,14 @@
 }
 
 .btn-portfolio-container {
+	   display: flex;
+       flex-direction: column;
+	   align-items: center;
+
 	@media screen and (min-width: 480px) {
-		display: flex;
+        flex-direction: row;
 		justify-content: start;
-        align-items: center;
-		flex-wrap: wrap;
+        flex-wrap: wrap;
 		margin-bottom: 40px;
 	}
 
