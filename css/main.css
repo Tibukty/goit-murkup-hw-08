@@ -214,7 +214,7 @@ body.no-scroll {
 .mobil-menu-btn.is-open .mobil-menu-close {
   opacity: 1;
 }
-.mobil-menu-btn.is-open .mobil-menu-close:hover, .mobil-menu-btn.is-open .mobil-menu-close:focus .mobil-menu-btn.is-open .mobil-menu-close:active {
+.mobil-menu-btn.is-open .mobil-menu-close:hover, .mobil-menu-btn.is-open .mobil-menu-close:focus, .mobil-menu-btn.is-open .mobil-menu-close:active {
   color: var(--accent-txt-color);
 }
 
