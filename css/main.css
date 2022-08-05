@@ -1305,6 +1305,7 @@ body.no-scroll {
   .footer__adress-contact--size {
     min-width: 231px;
     margin-right: 70px;
+    margin-bottom: 0px;
   }
 }
 
