@@ -214,7 +214,7 @@ body.no-scroll {
 .mobil-menu-btn.is-open .mobil-menu-close {
   opacity: 1;
 }
-.mobil-menu-btn.is-open .mobil-menu-close:hover, .mobil-menu-btn.is-open .mobil-menu-close:focus {
+.mobil-menu-btn.is-open .mobil-menu-close:hover, .mobil-menu-btn.is-open .mobil-menu-close:focus .mobil-menu-btn.is-open .mobil-menu-close:active {
   color: var(--accent-txt-color);
 }
 
@@ -597,9 +597,10 @@ body.no-scroll {
   height: 100%;
   position: relative;
   margin-bottom: 10px;
-  /* &:not(:last-child){
-      margin-bottom: 10px;
-      } */
+}
+
+.modal-form-item-bottom {
+  margin-bottom: 0px;
 }
 
 /* modal title */
@@ -749,7 +750,7 @@ body.no-scroll {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
@@ -1165,6 +1166,11 @@ body.no-scroll {
           justify-content: center;
   --items: 2;
 }
+@media screen and (min-width: 768px) {
+  .clients__list {
+    --items: 3;
+  }
+}
 @media screen and (min-width: 1200px) {
   .clients__list {
     --items: 6;
@@ -1278,38 +1284,22 @@ body.no-scroll {
   }
 }
 
+.footer__address-social-flex {
+  margin-bottom: 60px;
+}
 @media screen and (min-width: 768px) {
   .footer__address-social-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    margin-right: 89px;
-    margin-left: 76px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .footer__address-social-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    margin-right: 0px;
-    margin-left: 0px;
   }
 }
 
-.footer__adress-contact--size {
-  margin-bottom: 60px;
-}
 @media screen and (min-width: 1200px) {
   .footer__adress-contact--size {
     min-width: 231px;
@@ -1363,9 +1353,6 @@ body.no-scroll {
   color: var(--accent-txt-color);
 }
 
-.footer-media--margin {
-  margin-bottom: 60px;
-}
 @media screen and (min-width: 1200px) {
   .footer-media--margin {
     display: -webkit-box;

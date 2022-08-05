@@ -28,26 +28,22 @@
 }
 
 .footer__address-social-flex {
+ margin-bottom: 60px;
+
  @media screen and (min-width: 768px) {
  display: flex;
-justify-content: space-between;
-align-items: baseline;
-margin-right: 89px;
-margin-left: 76px;
+ justify-content: space-around;
+ align-items: baseline;
+
 }
-@media screen and (min-width: 1200px){
-    display: flex;
-    flex-direction: row;
-    margin-right: 0px;
-    margin-left: 0px;
-}
+
 
 }
 
 .footer__adress-contact--size {
 
     
-    margin-bottom: 60px;
+    
 
 
 
@@ -103,11 +99,8 @@ margin-left: 76px;
 }
 
 .footer-media--margin {
-    margin-bottom: 60px;
-
     
-
-    @media screen and (min-width: 1200px) {
+     @media screen and (min-width: 1200px) {
       display: flex;
       flex-direction: column;
       margin-right: 93px;
